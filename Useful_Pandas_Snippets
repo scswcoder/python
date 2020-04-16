@@ -1,5 +1,10 @@
 #Ref: http://www.swegler.com/becky/blog/2014/08/06/useful-pandas-snippets/
 
+#To change a column to string datatype
+
+df['c1'] = df['c1'].apply(str)
+
+
 
 # List unique values in a DataFrame column
 pd.unique(df.column_name.ravel())
