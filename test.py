@@ -1,3 +1,2 @@
-var = 'hello'
-print("Hello feature1")
-print("Hello feature-2")
+import os
+print("Hello Word")
